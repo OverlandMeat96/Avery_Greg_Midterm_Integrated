@@ -1,0 +1,69 @@
+________________________________________________________
+Doc Outline:
+	Home:
+	    Main Header
+	       Main Nav
+	       Hero Image Scroll
+	       Featured Products
+		  Featured Shoes
+		     Featured Shoes Text and Image
+		        Shoe Name
+		     Featured Shoes Text and Image 2
+			Shoe Name
+		     Featured Shoes Text and Image 3
+			Shoe Name
+	       Our Brand
+	    Main Footer
+	       Footer Nav
+
+
+	Products: 
+	        Main Header
+		   Main Nav
+		   Hero Image
+		   Footwear
+		      Classic Series
+		      Classic Series Content
+		         Shoe #1 Content
+		            Shoe #1
+		         Shoe #2 Content
+		            Shoe #2
+		         Shoe #3 Content
+		            Shoe #3
+		         Shoe #4 Content
+		            Shoe #4
+		      Limited Series
+		      Limited Series Content
+		         Shoe #1 Content
+		            Shoe #1
+		         Shoe #2 Content
+		            Shoe #2
+		         Shoe #3 Content
+		            Shoe #3
+		         Shoe #4 Content
+		            Shoe #4
+		Main Footer
+		   Footer Nav
+________________________________________________________
+Fonts:
+   Font Sizes:
+	H2(ex.Featured Products) - 32px
+	H3(ex. Classic Series) - 28px
+	H4(ex. Shoe Name) - 18px
+	P - 14px
+	Top Nav/Search Bar - 28px
+________________________________________________________
+Measurements:
+	Home:
+	   Header - W:960px  H:112px
+	   Hero Image Scroll - W:960px  H:312px
+	   Featured Products - W:960px  H:320px
+	   Our Brand - W:960px  H:314px
+	   Footer - W:960px  H:112px
+
+	Products:
+	   Header - W:960px  H:112px
+	   Hero Image - W:960px  H:312px
+	   Footwear - W:960px  H:1000px
+	   Footer - W:960px  H:112px
+________________________________________________________
