@@ -1,4 +1,4 @@
-![All about my Midterm Integrated Project(images/alexander_keiths_X_puma.jpg "Alexander Keiths X Puma")
+![All about my Midterm Integrated Project](images/alexander_keiths_X_puma.jpg "Alexander Keiths X Puma")
 
 # Midterm Integrated Project
 
