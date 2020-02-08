@@ -2,7 +2,8 @@
 
 # Midterm Integrated Project
 
-This is my midterm integrated project. The first pageis the home of our brand mashup and features promotional images and info for the products that are featured. The second page is the product page, which presents the many different products available. The two brands that we are working with are Alexander Keith's and Puma - Speed Orbiter.
+### Overview
+This is my midterm integrated project. The two brands that we are working with are Alexander Keith's and Puma - Speed Orbiter. The first page is the home of our brand mashup and features promotional images and info for the products that are featured. The second page is the product page, which presents the many different products available. The third page presents information all about the company. The fourth page is the contact page and includes many different ways to get in touch with the company, such as a contact form and social media links. The fifth and final page is the cart page which holds all the items that you want to purchase.  
 
 Alexander Keith's is a brewing company found in Halifax, Nova Scotia and was founded in 1820. The company now sells many different beers with unique tastes that come from locally sourced products.
 
