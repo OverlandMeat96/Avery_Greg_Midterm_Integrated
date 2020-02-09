@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cart</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+	<div id="siteContainer">
+		<main>
+
+
+			<header class="mainHeader">
+				<h2 class="hidden">Main Header</h2>
+				<div class="logoHeader">Logo</div>
+				<nav class="mainNav">
+					<h2 class="hidden">Main Nav</h2>
+					<ul>
+                    	<li><a href="index.html">Home</a></li>  
+                    	<li><a href="products.html">Products</a></li>
+                    	<li><a href="ourBrand.html">Our Brand</a></li>
+                    	<li><a href="contact.html">Contact</a></li> 
+                	</ul>
+                </nav>
+				<form id="searchBar" action="form.php" method="post"> 
+                    <input type="text" required size="26" placeholder="Search">    
+                </form>
+                <ul>
+					<li class="shoppingCart"><a href="#"> C </a></li>
+				</ul>
+			</header>
+
+
+			<section class="yourCart">
+				<h2>Your Cart</h2>
+				<div class="lineDivider"></div>
+				<section class="purchase">
+					<section class="purchasePic">
+						<img src="images/index/Hero_Image_Scroll.jpg" alt="Hero Image Scroll">
+					</section>
+					<section class="purchaseTxt">
+						<h4>Lorem Ipsum</h4>
+						<div class="lineDividerSmall"></div>
+						<h4>Consectetur adipiscing: Lorem ipsum</h4>
+						<h4>Dolor sit amet: Elit</h4>
+						<h4>Etiam viverra: Ligula magna</h4>
+						<h4>CAN $2.85</h4>
+						<div class="qtyBtn">
+							<p>QTY: 1 ></p>
+						</div>
+					</section>
+				</section>
+				<div class="lineDividerLong"></div>
+				<section class="purchase">
+					<section class="purchasePic">
+						<img src="images/index/Hero_Image_Scroll.jpg" alt="Hero Image Scroll">
+					</section>
+					<section class="purchaseTxt">
+						<h4>Lorem Ipsum</h4>
+						<div class="lineDividerSmall"></div>
+						<h4>Consectetur adipiscing: Lorem ipsum</h4>
+						<h4>Dolor sit amet: Elit</h4>
+						<h4>Etiam viverra: Ligula magna</h4>
+						<h4>CAN $2.85</h4>
+						<div class="qtyBtn">
+							<p>QTY: 6 ></p>
+						</div>
+					</section>
+				</section>
+			</section>
+			
+
+			<section class="order">
+				<h2>Order</h2>
+				<div class="lineDivider"></div>
+				<h5>Subtotal - CAN $17.35</h5>
+				<h5>Shipping - CAN $10.00 (Ontario, Canada)</h5>
+				<h5>Sales Tax Estimate - CAN $0.00</h5>
+				<div class="lineDividerMedium"></div>
+				<h5>ESTIMATED TOTAL - $27.35</h5>
+				<section class="promoCode">
+					<form action="form.php" method="post">
+                    	<label>APPLY PROMO CODE</label>
+                    	<input type="text" required size="18" placeholder=""> 
+                    	<input type="Submit" value="Checkout"> 
+                	</form> 
+                </section>
+			</section>
+
+
+			<footer class="mainFooter">
+				<h2 class="hidden">Main Footer</h2>
+				<div class="logoFooter">Logo</div>
+				<nav class="footerNav">
+					<h2 class="hidden">Footer Nav</h2>
+					<ul>
+                    	<li><a href="index.html">Home</a></li>  
+                    	<li><a href="products.html">Products</a></li>
+                    	<li><a href="ourBrand.html">Our Brand</a></li>
+                    	<li><a href="contact.html">Contact</a></li> 
+                	</ul>
+                </nav>
+				<p class="copyright">C Alexander  Keith’s  /  PUMA,  2020</p>
+				<div class="countrySelect">
+					<p>Country</p>
+				</div>
+			</footer>
+
+
+		</main>
+	</div>
+<script src="js/main.js"></script>
+</body>
+</html>

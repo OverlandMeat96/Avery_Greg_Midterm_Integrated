@@ -2,105 +2,124 @@
 
 /*------------SITE CONATINER-----------*/
 
-.hidden {
+.hidden {   /* Class to hide titles */
 	display: none;
 }
 
-#siteContainer {
+#siteContainer {   /* Site Dimensions */
 	margin: 0 auto;
 	width: 960px;
+	background-color: red;
 }
 
-h2 {
+h2 {   /* Heading 2 */
 	font-size: 32px;
+	font-family: "Bahnschrift", Arial, sans-serif;
 	margin-left: 28px;
 }
 
-h3 {
+h3 {   /* Heading 3 */
 	display: flex;
 	justify-content: center;
 	font-size: 28px;
+	font-family: "Bahnschrift", Arial, sans-serif;
 	margin: 40px 0px 20px 0px;
 }
 
-h4 {
+h4 {   /* Heading 4 */
 	font-size: 18px;
+	font-family: "Bahnschrift", Arial, sans-serif;
 	margin: 5px 0px 10px 0px;
 }
 
+h5 {   /* Heading 5 */
+	font-size: 22px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+
+
 /*----------------HEADER----------------*/
 
-.mainHeader {
+.mainHeader {   /* Header Dimensions */
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	height: 112px;
 	font-size: 26px;
-	background-color: black;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	background-color: #004310;
 }
 
-.logoHeader {
+.logoHeader {   /* Logo in Header */
 	width: 90px;
 	height:90px;
 	background-color: white;
 	margin: 10px 0px 0px 10px;
 }
 
-.mainNav {
-	width: 428px;
+.mainNav {   /* Header Navigation */
+	width: 432px;
 	height: 24px;
 	margin: 35px 110px 0px 20px;
 }
 
-.mainNav ul li { 
+.mainNav ul li {   /* Navigation list styling */
 	font-size: 28px;
 	display: inline;
 	cursor: pointer;
 }
 
-.mainNav ul li a {  
+.mainNav ul li a {   /* Navigation list styling */
 	color: #fff;
+	text-decoration: none;
 }
 
-#searchBar input{
+#searchBar input{   /* Search Bar Dimensions / Position */
 	width: 210px;
 	height: 36px;
 	font-size: 28px;
+	font-family: "Bahnschrift", Arial, sans-serif;
 	margin: 30px 0px 0px 0px;
 	border: 4px solid white;
 	border-radius: 10px;
-	background-color: black;
+	color: white;
+	background-color: #004310;
 }
 
-.shoppingCart {
+.shoppingCart {   /* Cart Button */
 	width: 30px;
 	height: 30px;
 	margin: 38px 0px 0px 28px;
 	background-color: white;
 }
 
+
+
 /*---------------HOME_/_Hero_Image_Scroll--------------*/
 
-.heroImgScrl {
+.heroImgScrl {   /* Home Hero Image */
 	height: 312px;
 	background-color: green;
 }
 
+
+
 /*---------------HOME_/_Featured_Products--------------*/
 
-.ftdProducts {
+.ftdProducts {   /* Featured Products Section */
 	height: 320px;
 	background-color: green;
 	margin-top: 20px;
 }
 
-.lineDivider {
+.lineDivider {   /* Black Line Divider */
 	width: 480px;
 	height: 3px;
 	background-color: black;
 }
 
-.ftdShoes {
+.ftdBeer {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 20px 0px 0px 0px;
@@ -119,11 +138,19 @@ h4 {
 
 .ftdText {
 	margin-left: 6px;
+	font-family: "Bahnschrift", Arial, sans-serif;
 }
 
 .ftdInfo {
-	width: 137px;
+	width: 140px;
 	height: 130px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+.prdctBtn a {
+	font-family: "Bahnschrift", Arial, sans-serif;
+	text-decoration: none;
+	color: black;
 }
 
 .shpMrBtn {
@@ -131,6 +158,13 @@ h4 {
 	justify-content: center;
 	margin-top: 20px;
 }
+
+.shpMrBtn a {
+	font-family: "Bahnschrift", Arial, sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
 
 
 /*---------------HOME_/_OUR_BRAND--------------*/
@@ -149,6 +183,7 @@ h4 {
 	width: 440px;
 	height: 200px;
 	font-size: 14px;
+	font-family: "Bahnschrift", Arial, sans-serif;
 	background-color: white;
 	margin: 25px 0px 0px 26px;
 }
@@ -159,12 +194,20 @@ h4 {
 	margin-top: 10px;
 }
 
+.moreBtn a {
+	font-family: "Bahnschrift", Arial, sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
 .brndImg {
 	width: 448px;
 	height: 314px;
 	background-color: purple;
 	margin-left: 24px;
 }
+
+
 
 /*---------PRODUCTS_/_Hero_IMAGE--------*/
 
@@ -173,9 +216,11 @@ h4 {
 	background-color: green;
 }
 
+
+
 /*---------PRODUCTS_/_FOOTWEAR----------*/
 
-.footwear {
+.Beer {
 	height: 1000px;
 	margin: 20px 0px 20px 0px;
 	background-color: green;
@@ -186,7 +231,7 @@ h4 {
 	justify-content: space-evenly;
 }
 
-.shoeimg {
+.beerimg {
 	height: 160px;
 	width: 160px;
 	background-color: white;
@@ -201,53 +246,301 @@ h4 {
 	margin: 15px 0px 0px 50px;
 }
 
+
+
+/*---------Our_Brand_/_Our_Brand----------*/
+
+.ourBrndInfo {
+	width: 960px;
+	height: 645px;
+	background-color: green;
+	margin: 20px 0px 20px 0px;
+}
+
+.brandP1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.brandP1 p{
+	width: 536px;
+	height: 94px;
+	margin: 38px 0px 0px 210px;
+}
+
+.infoAndpic {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.brndInfo1And2 {
+	width: 322px;
+	height: 416px; 
+	margin: 62px 0px 0px 0px;
+}
+
+.brndInfo1And2 h5 {
+	margin: 16px 0px 30px 0px;
+}
+
+
+
+/*----------------Contact_/_HeroImg----------------*/
+
+.heroImgContact {
+	width: 960px;
+	height: 178px;
+	background-color: green;
+}
+
+
+
+/*----------------Contact_/_Email_Us----------------*/
+
+.emailUs {   /* Email Us Section */
+	width: 960px;
+	height: 470px;
+	margin: 20px 0px 20px 0px;
+	background-color: green;
+}
+
+.emailUs p {   /* Email Us Paragraph */
+	width: 480px;
+	margin: 10px 0px 0px 30px;
+}
+
+.contactForm {   /* Contact Form */
+	display: flex;
+	justify-content: center;
+	margin: 48px 0px 0px 0px;
+}
+
+.contactForm label {   /* Contact Form Titles Size */
+	font-size: 22px;
+}
+
+.contactForm input {   /* Contact Form Input Box Styling */
+	width: 258px;
+	height: 40px;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.message {   /* Contact Form Message Box Styling */
+	width: 538px;
+	height: 84px;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.contactForm input[type=Submit]{   /* Submit Button Styling */
+	font-size: 22px;
+	width: 138px;
+	height: 34px;
+}
+
+.contactForm input[type=Reset]{   /* Reset Button Styling */
+	font-size: 22px;
+	width: 138px;
+	height: 34px;
+}
+
+
+
+/*----------------Contact_/_Social_Media----------------*/
+
+.socialMedia {   /* Social Media Section Dimensions */
+	width: 960px;
+	height: 230px;
+	margin: 0px 0px 20px 0px;
+	background-color: green;
+}
+
+.socialMedia p {   /* Social Media Paragraph */
+	width: 480px;
+	margin: 10px 0px 0px 30px;
+}
+
+.socialMediaPics {   /* Social Media Images Box */
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.mediaPics {   /* Social Media Images */
+	width: 108px;
+	height: 108px;
+	background-color: red;
+	margin: 20px 0px 0px 0px;
+}
+
+
+
+/*----------------Cart_/_Your_Cart----------------*/
+
+.yourCart {   /* Your Cart Section */
+	width: 960px;
+	height: 518px;
+	background-color: green;
+	margin: 20px 0px 20px 0px;
+}
+
+.purchase {   /* Item Content (image and text) */
+	display: flex;
+	flex-direction: row;
+	width: 478px;
+	height: 190px;
+	margin: 30px 0px 30px 50px;
+}
+
+.purchasePic {   /* Purchse Image */
+ width: 188px;
+ height: 188px;
+ background-color: red;
+ margin-right: 20px;
+}
+
+.purchaseTxt {
+	width: 400px;
+}
+
+.lineDividerSmall {   /* Small Black Line */
+	width: 230px;
+	height: 1px;
+	background-color: black;
+}
+
+.qtyBtn {
+	width: 74px;
+	height: 22px;
+	background-color: white;
+	margin: 0px 0px 0px 0px;
+	font-size: 18px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	border: 2px solid black;
+	border-radius: 8px;
+	background-color: none;
+}
+
+.qtyBtn p {
+	margin: 3px 0px 0px 5px;
+}
+
+.lineDividerLong {   /* Long Black Line */
+	width: 786px;
+	height: 1px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+/*----------------Cart_/_Order----------------*/
+
+.order {   /* Order Section Dimensions */
+	width: 960px;
+	height: 324px;
+	background-color: green;
+	margin: 20px 0px 20px 0px;
+}
+
+.order h5 {   /* Order Heading 5 Styling */
+	margin: 25px 0px 0px 30px;
+}
+
+.lineDividerMedium {   /* Medium Black Line DIvider */
+	width: 394px;
+	height: 1px;
+	background-color: black;
+	margin: 25px 0px 0px 30px;
+}
+
+.promoCode {
+	margin: 20px 10px 0px 30px;
+}
+
+.promoCode label {
+	font-size: 18px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	display: block;
+	margin: 0px 0px 0px 6px;
+}
+
+.promoCode input {
+	width: 202px;
+	height: 26px;
+	border: 2px solid black;
+	border-radius: 8px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+.promoCode input[type=Submit]{   /* Submit Button Styling */
+	font-size: 18px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	width: 96px;
+	height: 26px;
+	padding: 2px 0px 0px 0px;
+	margin: 0px 0px 0px 30px;
+}
+
+
+
 /*----------------FOOTER----------------*/
 
-.mainFooter {
+.mainFooter {   /* Footer Section Dimensions */
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	margin: 0 auto;
 	width: 960px;
 	height: 112px;
-	background-color: black;
+	background-color: #004310;
 }
 
-.logoFooter {
+.logoFooter {   /* Footer Logo */
 	width: 90px;
 	height:90px;
 	background-color: white;
 	margin: 10px 0px 0px 40px;
 }
 
-.footerNav {
+.footerNav {   /* Footer Navigation */
 	width: 120px;
 	height: 100px;
-	background-color: white;
 	margin: 6px 0px 0px 10px;
 }
 
-.footerNav ul li { 
+.footerNav ul li {   /* Footer Nav List Styling */
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 26px;
 	cursor: pointer;
 }
 
-.footerNav ul li a {  
-	color: #808080;
+.footerNav ul li a {   /* Footer Nav List Font Styling */
+	color: white;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	text-decoration: none;
 }
 
-.copyright {
-	width: 230px;
+.copyright {   /* Copyright Info Section */
+	width: 240px;
 	height: 16px;
-	background-color: white;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	color: white;
 	margin: 90px 0px 0px 120px;
 }
 
-.countrySelect {
+.countrySelect {   /* Country Selection Box */
 	width: 130px;
-	height: 24px;
+	height: 20px;
 	background-color: white;
-	margin: 45px 0px 0px 180px;
+	margin: 45px 0px 0px 170px;
+	font-size: 14px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	border: 2px solid white;
+	border-radius: 6px;
+	color: white;
+	background-color: #004310;
+}
+
+.countrySelect p {   /* Country Selection Text */
+	margin: 4px 0px 0px 42px;
 }
