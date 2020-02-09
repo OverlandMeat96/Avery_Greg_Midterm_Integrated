@@ -50,6 +50,7 @@ Fonts:
 	H2(ex.Featured Products) - 32px
 	H3(ex. Classic Series) - 28px
 	H4(ex. Shoe Name) - 18px
+	H5(ex. brand title 2, order subtotal) - 22px
 	P - 14px
 	Top Nav/Search Bar - 28px
 ________________________________________________________
@@ -65,5 +66,18 @@ Measurements:
 	   Header - W:960px  H:112px
 	   Hero Image - W:960px  H:312px
 	   Footwear - W:960px  H:1000px
+	   Footer - W:960px  H:112px
+
+	Our Brand:
+	   Header - W:960px  H:112px
+	   Hero Image - W:960px  H:312px
+	   Info - W:960px  H:645px
+	   Footer - W:960px  H:112px
+
+	Contact:
+	   Header - W:960px  H:112px
+	   Hero Image - W:960px  H:178px
+	   Email Us - W:960px  H:470px
+	   Social Media - W:960px  H:230px
 	   Footer - W:960px  H:112px
 ________________________________________________________
