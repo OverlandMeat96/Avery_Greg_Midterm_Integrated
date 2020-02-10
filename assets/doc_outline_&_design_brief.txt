@@ -5,13 +5,13 @@ Doc Outline:
 	       Main Nav
 	       Hero Image Scroll
 	       Featured Products
-		  Featured Shoes
-		     Featured Shoes Text and Image
-		        Shoe Name
-		     Featured Shoes Text and Image 2
-			Shoe Name
-		     Featured Shoes Text and Image 3
-			Shoe Name
+		  Featured Beer
+		     Featured Beer Text and Image
+		        Beer Name
+		     Featured Beer Text and Image 2
+			Beer Name
+		     Featured Beer Text and Image 3
+			Beer Name
 	       Our Brand
 	    Main Footer
 	       Footer Nav
@@ -21,29 +21,82 @@ Doc Outline:
 	        Main Header
 		   Main Nav
 		   Hero Image
-		   Footwear
+		   Beer
 		      Classic Series
 		      Classic Series Content
-		         Shoe #1 Content
-		            Shoe #1
-		         Shoe #2 Content
-		            Shoe #2
-		         Shoe #3 Content
-		            Shoe #3
-		         Shoe #4 Content
-		            Shoe #4
+		         Beer #1 Content
+		            Beer #1
+		         Beer #2 Content
+		            Beer #2
+		         Beer #3 Content
+		            Beer #3
+		         Beer #4 Content
+		            Beer #4
 		      Limited Series
 		      Limited Series Content
-		         Shoe #1 Content
-		            Shoe #1
-		         Shoe #2 Content
-		            Shoe #2
-		         Shoe #3 Content
-		            Shoe #3
-		         Shoe #4 Content
-		            Shoe #4
+		         Beer #1 Content
+		            Beer #1
+		         Beer #2 Content
+		            Beer #2
+		         Beer #3 Content
+		            Beer #3
+		         Beer #4 Content
+		            Beer #4
 		Main Footer
 		   Footer Nav
+
+	
+	Our Brand:
+		Main Header
+		   Main Nav
+		   Hero Image
+		   Our Brand Content
+		      Our Brand
+		      LOREM IPSUM
+		      LOREM IPSUM
+		   Main Footer
+		      Footer Nav
+
+
+	Contact:
+		Main Header
+		   Main Nav
+		   Hero Image
+		   Email Us
+		      Contact Form
+		   Social Media
+		      Social Media Logos
+		Main Footer
+		   Footer Nav
+
+
+	Cart:
+		Main Header
+		   Main Nav
+		   Your Cart
+		      Purchase
+		         Purchase Image
+			 Lorem Ipsum
+			 Consectetur adipiscing: Lorem ipsum
+			 Dolor sit amet: Elit
+			 Etiam viverra: Ligula magna
+			 CAN $2.85
+		      Purchase
+		         Purchase Image
+			 Lorem Ipsum
+			 Consectetur adipiscing: Lorem ipsum
+			 Dolor sit amet: Elit
+			 Etiam viverra: Ligula magna
+			 CAN $2.85
+		   Order
+		      Subtotal - CAN $17.35
+		      Shipping - CAN $10.00 (Ontario, Canada)
+		      Sales Tax Estimate - CAN $0.00
+		      ESTIMATED TOTAL - $27.35
+		      Promo Code
+		Main Footer
+		   Footer Nav
+
 ________________________________________________________
 Fonts:
    Font Sizes:

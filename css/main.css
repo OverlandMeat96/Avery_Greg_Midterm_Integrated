@@ -52,10 +52,9 @@ h5 {   /* Heading 5 */
 }
 
 .logoHeader {   /* Logo in Header */
-	width: 90px;
-	height:90px;
-	background-color: white;
-	margin: 10px 0px 0px 10px;
+	width: 100px;
+	height: 100px;
+	margin: 15px 0px 0px 10px;
 }
 
 .mainNav {   /* Header Navigation */
@@ -91,7 +90,6 @@ h5 {   /* Heading 5 */
 	width: 30px;
 	height: 30px;
 	margin: 38px 0px 0px 28px;
-	background-color: white;
 }
 
 
@@ -240,10 +238,12 @@ h5 {   /* Heading 5 */
 .prdctinfo {
 	width: 160px;
 	margin: 0px 0px 10px 0px;
+	font-family: "Bahnschrift", Arial, sans-serif;
 }
 
 .prdctBtn{
 	margin: 15px 0px 0px 50px;
+	font-family: "Bahnschrift", Arial, sans-serif;
 }
 
 
@@ -255,6 +255,7 @@ h5 {   /* Heading 5 */
 	height: 645px;
 	background-color: green;
 	margin: 20px 0px 20px 0px;
+	font-family: "Bahnschrift", Arial, sans-serif;
 }
 
 .brandP1 {
@@ -302,6 +303,7 @@ h5 {   /* Heading 5 */
 	height: 470px;
 	margin: 20px 0px 20px 0px;
 	background-color: green;
+	font-family: "Bahnschrift", Arial, sans-serif;
 }
 
 .emailUs p {   /* Email Us Paragraph */
@@ -354,6 +356,7 @@ h5 {   /* Heading 5 */
 	height: 230px;
 	margin: 0px 0px 20px 0px;
 	background-color: green;
+	font-family: "Bahnschrift", Arial, sans-serif;
 }
 
 .socialMedia p {   /* Social Media Paragraph */
@@ -367,9 +370,8 @@ h5 {   /* Heading 5 */
 }
 
 .mediaPics {   /* Social Media Images */
-	width: 108px;
-	height: 108px;
-	background-color: red;
+	width: 100px;
+	height: 100px;
 	margin: 20px 0px 0px 0px;
 }
 
@@ -495,10 +497,9 @@ h5 {   /* Heading 5 */
 }
 
 .logoFooter {   /* Footer Logo */
-	width: 90px;
-	height:90px;
-	background-color: white;
-	margin: 10px 0px 0px 40px;
+	width: 100px;
+	height:100px;
+	margin: 20px 10px 0px 20px;
 }
 
 .footerNav {   /* Footer Navigation */
