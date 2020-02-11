@@ -7,11 +7,11 @@ Doc Outline:
 	       Featured Products
 		  Featured Beer
 		     Featured Beer Text and Image
-		        Beer Name
+		        Indiana Pale Ale
 		     Featured Beer Text and Image 2
-			Beer Name
+			Light Ale
 		     Featured Beer Text and Image 3
-			Beer Name
+			Amber Ale
 	       Our Brand
 	    Main Footer
 	       Footer Nav
@@ -25,23 +25,23 @@ Doc Outline:
 		      Classic Series
 		      Classic Series Content
 		         Beer #1 Content
-		            Beer #1
+		            India Pale Ale
 		         Beer #2 Content
-		            Beer #2
+		            Light Ale
 		         Beer #3 Content
-		            Beer #3
+		            Amber Ale
 		         Beer #4 Content
-		            Beer #4
+		            Highland Pils
 		      Limited Series
 		      Limited Series Content
 		         Beer #1 Content
-		            Beer #1
+		            Saison du Brame
 		         Beer #2 Content
-		            Beer #2
+		            Rubus Grigio
 		         Beer #3 Content
-		            Beer #3
+		            Lunnenburg
 		         Beer #4 Content
-		            Beer #4
+		            Argyle
 		Main Footer
 		   Footer Nav
 
@@ -52,8 +52,8 @@ Doc Outline:
 		   Hero Image
 		   Our Brand Content
 		      Our Brand
-		      LOREM IPSUM
-		      LOREM IPSUM
+		      History
+		      Local Products
 		   Main Footer
 		      Footer Nav
 
@@ -64,6 +64,14 @@ Doc Outline:
 		   Hero Image
 		   Email Us
 		      Contact Form
+		         Row
+			    Input Box
+			    Input Box
+			 Row
+			    Input Box
+			    Input Box
+			 Message Row
+			 Row
 		   Social Media
 		      Social Media Logos
 		Main Footer
@@ -76,17 +84,17 @@ Doc Outline:
 		   Your Cart
 		      Purchase
 		         Purchase Image
-			 Lorem Ipsum
-			 Consectetur adipiscing: Lorem ipsum
-			 Dolor sit amet: Elit
-			 Etiam viverra: Ligula magna
+			 Highland Pils
+			 Alcohol Contents: |4.9% ABV & 22 IBU|
+			 Region: CANADA
+			 Beer Number: #172389
 			 CAN $2.85
 		      Purchase
 		         Purchase Image
-			 Lorem Ipsum
-			 Consectetur adipiscing: Lorem ipsum
-			 Dolor sit amet: Elit
-			 Etiam viverra: Ligula magna
+			 Lunnenburg
+			 Alcohol Contents: |6.5% ABV & 28 IBU|
+			 Region: CANADA
+			 Beer Number: #125734
 			 CAN $2.85
 		   Order
 		      Subtotal - CAN $17.35
@@ -132,5 +140,11 @@ Measurements:
 	   Hero Image - W:960px  H:178px
 	   Email Us - W:960px  H:470px
 	   Social Media - W:960px  H:230px
+	   Footer - W:960px  H:112px
+
+	Cart:
+	   Header - W:960px  H:112px
+	   Your Cart - W:960px H:518px
+	   Order - W: 960px H:324
 	   Footer - W:960px  H:112px
 ________________________________________________________
