@@ -23,49 +23,74 @@
                     	<li><a href="#">Contact</a></li> 
                 	</ul>
                 </nav>
-				<form id="searchBar" action="form.php" method="post"> 
-                    <input type="text" required size="26" placeholder="Search">    
-                </form>
-                <ul>
-					<li class="shoppingCart"><a href="cart.html"><img src=images/SVG/cart_logo.svg alt="Cart SVG"></a></li>
-				</ul>
+				<div class="searchBar">
+					<img src=images/magnifying_glass.png alt="Magnifying Glass">
+					<p>Search</p>
+				</div>
+                <ul><li class="shoppingCart"><a href="cart.html"><img src=images/SVG/cart_logo.svg alt="Cart SVG"></a></li></ul>
 			</header>
 
 
 			<section class="heroImgContact">
 				<h2 class="hidden">Hero Image</h2>
-				<img src="images/contact/Hero_Image.jpg" alt="Hero Image">
+				<img src="images/contact_hero.jpg" alt="Hero Image">
 			</section>
 
 
 			<section class="emailUs">
 				<h2>Email Us</h2>
 				<div class="lineDivider"></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+				<p>Want to get in touch with our great company? Please feel free to fill out the contact form below. This will generate an email that goes into our email box and we will respond as quickly as possible.</p>
 				<section class="contactForm">
-					<h2 class="hidden">Contact Form</h2>
-                	<form action="form.php" method="post">
-                    	<label>First Name</label>
-                    	<input type="text" required size="22" placeholder=""> 
-                    	<label>Last Name</label>
-                    	<input type="text" required size="22" placeholder="">
-                    	<label>Email</label>
-                    	<input type="email" required size="22" placeholder="">
-                    	<label>Phone Number</label>
-                    	<input type="text" required size="22" placeholder="">
-                    	<label>Message</label>
-                    	<textarea class="message" required cols="50" rows="8" placeholder=""></textarea>
-                    	<input type="Submit" value="Submit">
-                    	<input type="Reset" value="Reset">  
-                	</form> 
-            	</section>
+					<section class="contactRow">
+						<section class="inputBox">
+							<form action="form.php" method="post">
+                    			<label>First Name</label>
+                    			<div></div> 
+                    		</form>
+                    	</section>
+                    	<section class="inputBox">
+							<form action="form.php" method="post">
+                    			<label>Last Name</label>
+                    			<div></div> 
+                    		</form>
+                    	</section>
+                    </section>
+                   	<section class="contactRow">
+						<section class="inputBox">
+							<form action="form.php" method="post">
+                    			<label>Email</label>
+                    			<div></div> 
+                    		</form>
+                    	</section>
+                    	<section class="inputBox">
+							<form action="form.php" method="post">
+                    			<label>Phone Number</label>
+                    			<div></div> 
+                    		</form>
+                    	</section>
+                    </section>
+                    <section class="inputBoxMessage">
+						<form action="form.php" method="post">
+                    		<label>Message</label>
+                    		<div></div> 
+                    	</form>
+                    </section>
+                    <section class="contactRowBottom">
+                    	<div class="submitAndReset">
+							<p>Submit</p>
+						</div>
+						<div class="submitAndReset">
+							<p>Reset</p>
+						</div>
+                    </section>
 			</section>
 
 
 			<section class="socialMedia">
 				<h2>Social Media</h2>
 				<div class="lineDivider"></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+				<p>Don’t want to use that scary email form above? These social media logos will take you to our respective social media sites when clicked. You can then direct text us within that social media page.</p>
 				<section class="socialMediaPics">
 					<h2 class="hidden">Social Media Logos</h2>
 					<ul><li class="mediaPics"><a href="https://www.facebook.com/"><img src="images/SVG/facebook_logo.svg" alt="Facebook Pic"></a></li></ul>
@@ -86,11 +111,13 @@
                     	<li><a href="index.html">Home</a></li>  
                     	<li><a href="products.html">Products</a></li>
                     	<li><a href="ourBrand.html">Our Brand</a></li>
-                    	<li><a href="#">Contact</a></li> 
+                    	<li><a href="contact.html">Contact</a></li> 
                 	</ul>
                 </nav>
 				<p class="copyright">C Alexander  Keith’s  /  PUMA,  2020</p>
-				<div class="countrySelect">Country</div>
+				<div class="countrySelect">
+					<p>CANADA</p>
+				</div>
 			</footer>
 
 
