@@ -77,6 +77,17 @@ h5 {   /* Heading 5 */
 	text-decoration: none;
 }
 
+.mainNav ul li a:hover {
+	color: #CB2E16;
+	font-weight: bold;
+
+
+	-webkit-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+}
+
 .searchBar {   
 	width: 196px;
 	height: 34px;
@@ -139,7 +150,7 @@ h5 {   /* Heading 5 */
 
 .imgText {
 	display: flex;
-	justify-content: row;
+	flex-direction: row;
 	border: 2px solid black;
 	padding: 8px 0px 8px 0px;
 	width: 230px;
@@ -484,7 +495,6 @@ h5 {   /* Heading 5 */
 	font-family: "Bahnschrift", Arial, sans-serif;
 	border: 2px solid black;
 	border-radius: 8px;
-	background-color: none;
 }
 
 .qtyBtn p {
@@ -582,6 +592,17 @@ h5 {   /* Heading 5 */
 	color: white;
 	font-family: "Bahnschrift", Arial, sans-serif;
 	text-decoration: none;
+}
+
+.footerNav ul li a:hover {
+	color: #CB2E16;
+	font-weight: bold;
+
+
+	-webkit-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	transition: all .5s ease-in;
 }
 
 .copyright {   /* Copyright Info Section */
