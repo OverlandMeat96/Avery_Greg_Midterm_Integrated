@@ -9,7 +9,10 @@
 #siteContainer {   /* Site Dimensions */
 	margin: 0 auto;
 	width: 960px;
-	background-color: red;
+}
+
+body {
+	background-image: url("../images/home_paper_background.jpg");
 }
 
 h2 {   /* Heading 2 */
@@ -74,22 +77,35 @@ h5 {   /* Heading 5 */
 	text-decoration: none;
 }
 
-#searchBar input{   /* Search Bar Dimensions / Position */
-	width: 210px;
-	height: 36px;
+.searchBar {   
+	width: 196px;
+	height: 34px;
+	background-color: white;
+	margin: 30px 0px 0px 0px;
 	font-size: 28px;
 	font-family: "Bahnschrift", Arial, sans-serif;
-	margin: 30px 0px 0px 0px;
-	border: 4px solid white;
-	border-radius: 10px;
+	border: 3px solid white;
+	border-radius: 6px;
 	color: white;
 	background-color: #004310;
+	display: flex;
+	flex-direction: row;
+}
+
+.searchBar img {
+	width: 28px;
+	height: 28px;
+	margin: 3px 26px 0px 6px;
+}
+
+.searchBar p {   
+	margin-top: 4px;
 }
 
 .shoppingCart {   /* Cart Button */
 	width: 30px;
 	height: 30px;
-	margin: 38px 0px 0px 28px;
+	margin: 36px 0px 0px 28px;
 }
 
 
@@ -98,7 +114,6 @@ h5 {   /* Heading 5 */
 
 .heroImgScrl {   /* Home Hero Image */
 	height: 312px;
-	background-color: green;
 }
 
 
@@ -106,8 +121,7 @@ h5 {   /* Heading 5 */
 /*---------------HOME_/_Featured_Products--------------*/
 
 .ftdProducts {   /* Featured Products Section */
-	height: 320px;
-	background-color: green;
+	height: 340px;
 	margin-top: 20px;
 }
 
@@ -126,21 +140,27 @@ h5 {   /* Heading 5 */
 .imgText {
 	display: flex;
 	justify-content: row;
+	border: 2px solid black;
+	padding: 8px 0px 8px 0px;
+	width: 230px;
 }
 
 .ftdImg {
-	width: 132px;
+	width: 66px;
 	height: 212px;
-	background-color: white;
+}
+
+.ftdImg img {
+	margin: 0px 20px 0px 20px;
 }
 
 .ftdText {
-	margin-left: 6px;
+	margin-left: 30px;
 	font-family: "Bahnschrift", Arial, sans-serif;
 }
 
 .ftdInfo {
-	width: 140px;
+	width: 130px;
 	height: 130px;
 	font-family: "Bahnschrift", Arial, sans-serif;
 }
@@ -173,16 +193,14 @@ h5 {   /* Heading 5 */
 	justify-content: flex-start;
 	width: 960px;
 	height: 314px;
-	background-color: green;
 	margin: 20px 0px 20px 0px;
 }
 
 .brndInfo{
 	width: 440px;
 	height: 200px;
-	font-size: 14px;
+	font-size: 18px;
 	font-family: "Bahnschrift", Arial, sans-serif;
-	background-color: white;
 	margin: 25px 0px 0px 26px;
 }
 
@@ -198,10 +216,9 @@ h5 {   /* Heading 5 */
 	color: black;
 }
 
-.brndImg {
+.brndImg img{
 	width: 448px;
 	height: 314px;
-	background-color: purple;
 	margin-left: 24px;
 }
 
@@ -211,38 +228,47 @@ h5 {   /* Heading 5 */
 
 .heroImg {
 	height: 312px;
-	background-color: green;
 }
 
 
 
-/*---------PRODUCTS_/_FOOTWEAR----------*/
+/*---------PRODUCTS_/_BEER----------*/
 
 .Beer {
-	height: 1000px;
-	margin: 20px 0px 20px 0px;
-	background-color: green;
+	height: 960px;
+	margin: 20px 0px 60px 0px;
 }
 
 .series {
+	height: 390px;
 	display: flex;
 	justify-content: space-evenly;
+}
+
+.beerContent {
+	border: 2px solid black;
+	padding: 10px 10px 10px 10px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+.beerContent p {
+	margin: 20px 0px 10px 0px;
 }
 
 .beerimg {
 	height: 160px;
 	width: 160px;
-	background-color: white;
+	margin: 0px 0px 20px 10px;
 }
 
 .prdctinfo {
-	width: 160px;
+	width: 180px;
 	margin: 0px 0px 10px 0px;
 	font-family: "Bahnschrift", Arial, sans-serif;
 }
 
 .prdctBtn{
-	margin: 15px 0px 0px 50px;
+	margin: 25px 0px 0px 60px;
 	font-family: "Bahnschrift", Arial, sans-serif;
 }
 
@@ -252,8 +278,7 @@ h5 {   /* Heading 5 */
 
 .ourBrndInfo {
 	width: 960px;
-	height: 645px;
-	background-color: green;
+	height: 810px;
 	margin: 20px 0px 20px 0px;
 	font-family: "Bahnschrift", Arial, sans-serif;
 }
@@ -291,7 +316,6 @@ h5 {   /* Heading 5 */
 .heroImgContact {
 	width: 960px;
 	height: 178px;
-	background-color: green;
 }
 
 
@@ -301,61 +325,104 @@ h5 {   /* Heading 5 */
 .emailUs {   /* Email Us Section */
 	width: 960px;
 	height: 470px;
-	margin: 20px 0px 20px 0px;
-	background-color: green;
+	margin: 40px 0px 20px 0px;
 	font-family: "Bahnschrift", Arial, sans-serif;
 }
 
 .emailUs p {   /* Email Us Paragraph */
-	width: 480px;
+	width: 500px;
 	margin: 10px 0px 0px 30px;
 }
 
-.contactForm {   /* Contact Form */
+.contactRow {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
-	margin: 48px 0px 0px 0px;
 }
 
-.contactForm label {   /* Contact Form Titles Size */
+.contactForm {
+	margin: 40px 0px 60px 0px;
+}
+
+.inputBox label {
 	font-size: 22px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	display: block;
+	margin: 20px 0px 0px 24px;
 }
 
-.contactForm input {   /* Contact Form Input Box Styling */
-	width: 258px;
-	height: 40px;
+.inputBox div {
+	width: 260px;
+	height: 45px;
 	border: 2px solid black;
 	border-radius: 8px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin-left: 20px;
 }
 
-.message {   /* Contact Form Message Box Styling */
-	width: 538px;
-	height: 84px;
+.inputBoxMessage { /* Input Box For Messages */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.inputBoxMessage label {
+	font-size: 22px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	display: block;
+	margin: 20px 0px 0px 24px;
+}
+
+.inputBoxMessage div {
+	width: 540px;
+	height: 88px;
 	border: 2px solid black;
 	border-radius: 8px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin-left: 20px;
 }
 
-.contactForm input[type=Submit]{   /* Submit Button Styling */
+.submitAndReset {   
+	width: 142px;
+	height: 38px;
+	margin: 20px 0px 0px 20px;
 	font-size: 22px;
-	width: 138px;
-	height: 34px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	border: 2px solid black;
+	border-radius: 6px;
 }
 
-.contactForm input[type=Reset]{   /* Reset Button Styling */
+.submitAndReset p {   
+	margin: 10px 0px 0px 40px;
+}
+
+.contactRowBottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contactRowBottom label {
 	font-size: 22px;
-	width: 138px;
-	height: 34px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin: 20px 0px 0px 24px;
 }
 
-
+.contactRowBottom input {
+	width: 540px;
+	height: 88px;
+	border: 2px solid black;
+	border-radius: 8px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin-left: 20px;
+}
 
 /*----------------Contact_/_Social_Media----------------*/
 
 .socialMedia {   /* Social Media Section Dimensions */
 	width: 960px;
-	height: 230px;
+	height: 240px;
 	margin: 0px 0px 20px 0px;
-	background-color: green;
 	font-family: "Bahnschrift", Arial, sans-serif;
 }
 
@@ -372,7 +439,7 @@ h5 {   /* Heading 5 */
 .mediaPics {   /* Social Media Images */
 	width: 100px;
 	height: 100px;
-	margin: 20px 0px 0px 0px;
+	margin: 35px 0px 0px 0px;
 }
 
 
@@ -382,7 +449,6 @@ h5 {   /* Heading 5 */
 .yourCart {   /* Your Cart Section */
 	width: 960px;
 	height: 518px;
-	background-color: green;
 	margin: 20px 0px 20px 0px;
 }
 
@@ -397,7 +463,6 @@ h5 {   /* Heading 5 */
 .purchasePic {   /* Purchse Image */
  width: 188px;
  height: 188px;
- background-color: red;
  margin-right: 20px;
 }
 
@@ -414,7 +479,6 @@ h5 {   /* Heading 5 */
 .qtyBtn {
 	width: 74px;
 	height: 22px;
-	background-color: white;
 	margin: 0px 0px 0px 0px;
 	font-size: 18px;
 	font-family: "Bahnschrift", Arial, sans-serif;
@@ -431,7 +495,7 @@ h5 {   /* Heading 5 */
 	width: 786px;
 	height: 1px;
 	background-color: black;
-	margin: 0 auto;
+	margin: 0px 0px 0px 50px;
 }
 
 /*----------------Cart_/_Order----------------*/
@@ -439,7 +503,6 @@ h5 {   /* Heading 5 */
 .order {   /* Order Section Dimensions */
 	width: 960px;
 	height: 324px;
-	background-color: green;
 	margin: 20px 0px 20px 0px;
 }
 
@@ -526,7 +589,8 @@ h5 {   /* Heading 5 */
 	height: 16px;
 	font-family: "Bahnschrift", Arial, sans-serif;
 	color: white;
-	margin: 90px 0px 0px 120px;
+	align-self: flex-end;
+	margin: 0px 0px 0px 100px;
 }
 
 .countrySelect {   /* Country Selection Box */
@@ -543,5 +607,5 @@ h5 {   /* Heading 5 */
 }
 
 .countrySelect p {   /* Country Selection Text */
-	margin: 4px 0px 0px 42px;
+	margin: 4px 0px 0px 40px;
 }
